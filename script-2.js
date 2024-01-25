@@ -20,7 +20,8 @@ window.onscroll=()=>{
             navlink.forEach(links => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id +']').classList.add('active');
-                navbar.classList.remove('active')
+                navbar.classList.remove('active');
+                menu.classList.remove('fa-times');
             })
         }
     })
